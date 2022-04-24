@@ -178,7 +178,7 @@ export const getAllResults = (numberCogs: number, numberCompasses: number, numbe
 
 const Field = ({ iconUrl, value, onPlus, onMinus }: { iconUrl: string, value: number, onPlus: () => void, onMinus: () => void }) => 
   <div>
-    <img src={iconUrl} width={100} /> x{value}
+    <img src={iconUrl} width={100} alt="Field" /> x{value}
     <IconButton onClick={onPlus} aria-label="plus" color="primary">
       <AddBoxIcon />
     </IconButton>
